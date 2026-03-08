@@ -1,31 +1,93 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konstruktion Unterricht</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        /* Menü */
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Inhalt */
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .modul {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+
 </head>
+
 <body>
 
-    <h1>Konstruktion</h1>
-    <h2>Unterrichtswebsite</h2>
+<nav>
 
-    <p>Willkommen auf meiner ersten Website für den Unterricht im Fach Konstruktion.</p>
+    <a href="#">Start</a>
+    <a href="#">Module</a>
+    <a href="#">Aufgaben</a>
+    <a href="#">Material</a>
+    <a href="#">Admin</a>
 
-    <p>Auf dieser Seite werden später Unterrichtsthemen, Aufgaben und Materialien bereitgestellt.</p>
+</nav>
 
-    <hr>
+<div class="container">
 
-    <h3>Themenübersicht</h3>
+    <h1>Konstruktion Unterricht</h1>
 
-    <h4>Linienarten</h4>
-    <p>Grundlagen zu sichtbaren Kanten, verdeckten Kanten und Mittellinien.</p>
+    <p>
+        Diese Website dient zur Verwaltung von Unterrichtsmodulen,
+        Aufgaben und Materialien im Fach Konstruktion.
+    </p>
 
-    <h4>Ansichten</h4>
-    <p>Einführung in Vorderansicht, Seitenansicht und Draufsicht.</p>
+    <h2>Module</h2>
 
-    <h4>Bemaßung</h4>
-    <p>Grundlagen zur normgerechten Eintragung von Maßen in technischen Zeichnungen.</p>
+    <div class="modul">
+        <h3>Linienarten</h3>
+        <p>Grundlagen zu sichtbaren Kanten, verdeckten Kanten und Mittellinien.</p>
+    </div>
+
+    <div class="modul">
+        <h3>Ansichten</h3>
+        <p>Vorderansicht, Seitenansicht und Draufsicht.</p>
+    </div>
+
+    <div class="modul">
+        <h3>Bemaßung</h3>
+        <p>Normgerechte Eintragung von Maßen.</p>
+    </div>
+
+</div>
 
 </body>
 </html>
